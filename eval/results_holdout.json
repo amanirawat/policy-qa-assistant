@@ -1,0 +1,234 @@
+{
+  "summary": {
+    "questions": 20,
+    "in_scope": 15,
+    "out_of_scope": 5,
+    "retrieval_hit_at_1": 93.3,
+    "retrieval_hit_at_3": 93.3,
+    "answer_rate": 100.0,
+    "refusal_accuracy": 80.0,
+    "citation_precision": 93.3
+  },
+  "rows": [
+    {
+      "question": "Is it okay to reuse the same password for work and personal accounts?",
+      "expected_source": "cisa-secure-our-world.md",
+      "in_scope": true,
+      "top_source": "cisa-secure-our-world.md",
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "answered": true,
+      "citation_correct": true,
+      "reason": "ok (coverage 72%, top score 7.2)"
+    },
+    {
+      "question": "Why shouldn't we require uppercase letters and symbols in passwords?",
+      "expected_source": "nist-sp-800-63b-passwords.md",
+      "in_scope": true,
+      "top_source": "nist-sp-800-63b-passwords.md",
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "answered": true,
+      "citation_correct": true,
+      "reason": "ok (coverage 81%, top score 14.4)"
+    },
+    {
+      "question": "How many failed login attempts should be allowed before locking?",
+      "expected_source": "nist-sp-800-63b-passwords.md",
+      "in_scope": true,
+      "top_source": "nist-sp-800-63b-passwords.md",
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "answered": true,
+      "citation_correct": true,
+      "reason": "ok (coverage 74%, top score 17.2)"
+    },
+    {
+      "question": "Can our app block passwords that appeared in data breaches?",
+      "expected_source": "nist-sp-800-63b-passwords.md",
+      "in_scope": true,
+      "top_source": "nist-sp-800-63b-passwords.md",
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "answered": true,
+      "citation_correct": true,
+      "reason": "ok (coverage 54%, top score 5.2)"
+    },
+    {
+      "question": "Who should be involved when responding to a cyber incident?",
+      "expected_source": "nist-sp-800-61-incident-response.md",
+      "in_scope": true,
+      "top_source": "nist-sp-800-122-pii.md",
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "answered": true,
+      "citation_correct": false,
+      "reason": "ok (coverage 100%, top score 7.5)"
+    },
+    {
+      "question": "How do we contain malware on an infected computer?",
+      "expected_source": "nist-sp-800-61-incident-response.md",
+      "in_scope": true,
+      "top_source": "nist-sp-800-61-incident-response.md",
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "answered": true,
+      "citation_correct": true,
+      "reason": "ok (coverage 72%, top score 5.5)"
+    },
+    {
+      "question": "I lost my work phone, is that a security incident?",
+      "expected_source": "nist-sp-800-61-incident-response.md",
+      "in_scope": true,
+      "top_source": "nist-sp-800-61-incident-response.md",
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "answered": true,
+      "citation_correct": true,
+      "reason": "ok (coverage 69%, top score 7.2)"
+    },
+    {
+      "question": "What does the Identify function include?",
+      "expected_source": "nist-csf-2.md",
+      "in_scope": true,
+      "top_source": "nist-csf-2.md",
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "answered": true,
+      "citation_correct": true,
+      "reason": "ok (coverage 73%, top score 7.4)"
+    },
+    {
+      "question": "What is an organizational profile in the CSF?",
+      "expected_source": "nist-csf-2.md",
+      "in_scope": true,
+      "top_source": "nist-csf-2.md",
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "answered": true,
+      "citation_correct": true,
+      "reason": "ok (coverage 100%, top score 8.4)"
+    },
+    {
+      "question": "What are warning signs of a scam email?",
+      "expected_source": "cisa-secure-our-world.md",
+      "in_scope": true,
+      "top_source": "cisa-secure-our-world.md",
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "answered": true,
+      "citation_correct": true,
+      "reason": "ok (coverage 100%, top score 10.1)"
+    },
+    {
+      "question": "Where should software updates be downloaded from?",
+      "expected_source": "cisa-secure-our-world.md",
+      "in_scope": true,
+      "top_source": "cisa-secure-our-world.md",
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "answered": true,
+      "citation_correct": true,
+      "reason": "ok (coverage 100%, top score 14.1)"
+    },
+    {
+      "question": "How do we decide the impact level of a dataset with PII?",
+      "expected_source": "nist-sp-800-122-pii.md",
+      "in_scope": true,
+      "top_source": "nist-sp-800-122-pii.md",
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "answered": true,
+      "citation_correct": true,
+      "reason": "ok (coverage 51%, top score 11.5)"
+    },
+    {
+      "question": "Can we use anonymized data for testing instead of real customer records?",
+      "expected_source": "nist-sp-800-122-pii.md",
+      "in_scope": true,
+      "top_source": "nist-sp-800-122-pii.md",
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "answered": true,
+      "citation_correct": true,
+      "reason": "ok (coverage 73%, top score 20.3)"
+    },
+    {
+      "question": "What is cryptographic erase?",
+      "expected_source": "nist-sp-800-88-media-sanitization.md",
+      "in_scope": true,
+      "top_source": "nist-sp-800-88-media-sanitization.md",
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "answered": true,
+      "citation_correct": true,
+      "reason": "ok (coverage 100%, top score 9.9)"
+    },
+    {
+      "question": "Do we need a certificate when we wipe a drive?",
+      "expected_source": "nist-sp-800-88-media-sanitization.md",
+      "in_scope": true,
+      "top_source": "nist-sp-800-88-media-sanitization.md",
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "answered": true,
+      "citation_correct": true,
+      "reason": "ok (coverage 67%, top score 7.9)"
+    },
+    {
+      "question": "How do I change my direct deposit information?",
+      "expected_source": null,
+      "in_scope": false,
+      "top_source": "nist-sp-800-63b-passwords.md",
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "answered": false,
+      "citation_correct": false,
+      "reason": "question coverage 36% below 50%"
+    },
+    {
+      "question": "What time does the cafeteria open?",
+      "expected_source": null,
+      "in_scope": false,
+      "top_source": "cisa-secure-our-world.md",
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "answered": false,
+      "citation_correct": false,
+      "reason": "top score 2.90 below 3.0"
+    },
+    {
+      "question": "How many sick days do I get per year?",
+      "expected_source": null,
+      "in_scope": false,
+      "top_source": "nist-sp-800-63b-passwords.md",
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "answered": false,
+      "citation_correct": false,
+      "reason": "question coverage 40% below 50%"
+    },
+    {
+      "question": "What is the best programming language to learn?",
+      "expected_source": null,
+      "in_scope": false,
+      "top_source": "nist-sp-800-61-incident-response.md",
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "answered": true,
+      "citation_correct": false,
+      "reason": "ok (coverage 73%, top score 5.0)"
+    },
+    {
+      "question": "Can I bring my dog to the office?",
+      "expected_source": null,
+      "in_scope": false,
+      "top_source": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "answered": false,
+      "citation_correct": false,
+      "reason": "no matching passages"
+    }
+  ]
+}

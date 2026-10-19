@@ -1,0 +1,23 @@
+[
+  {"question": "Is it okay to reuse the same password for work and personal accounts?", "expected_source": "cisa-secure-our-world.md"},
+  {"question": "Why shouldn't we require uppercase letters and symbols in passwords?", "expected_source": "nist-sp-800-63b-passwords.md"},
+  {"question": "How many failed login attempts should be allowed before locking?", "expected_source": "nist-sp-800-63b-passwords.md"},
+  {"question": "Can our app block passwords that appeared in data breaches?", "expected_source": "nist-sp-800-63b-passwords.md"},
+  {"question": "Who should be involved when responding to a cyber incident?", "expected_source": "nist-sp-800-61-incident-response.md"},
+  {"question": "How do we contain malware on an infected computer?", "expected_source": "nist-sp-800-61-incident-response.md"},
+  {"question": "I lost my work phone, is that a security incident?", "expected_source": "nist-sp-800-61-incident-response.md"},
+  {"question": "What does the Identify function include?", "expected_source": "nist-csf-2.md"},
+  {"question": "What is an organizational profile in the CSF?", "expected_source": "nist-csf-2.md"},
+  {"question": "What are warning signs of a scam email?", "expected_source": "cisa-secure-our-world.md"},
+  {"question": "Where should software updates be downloaded from?", "expected_source": "cisa-secure-our-world.md"},
+  {"question": "How do we decide the impact level of a dataset with PII?", "expected_source": "nist-sp-800-122-pii.md"},
+  {"question": "Can we use anonymized data for testing instead of real customer records?", "expected_source": "nist-sp-800-122-pii.md"},
+  {"question": "What is cryptographic erase?", "expected_source": "nist-sp-800-88-media-sanitization.md"},
+  {"question": "Do we need a certificate when we wipe a drive?", "expected_source": "nist-sp-800-88-media-sanitization.md"},
+
+  {"question": "How do I change my direct deposit information?", "expected_source": null},
+  {"question": "What time does the cafeteria open?", "expected_source": null},
+  {"question": "How many sick days do I get per year?", "expected_source": null},
+  {"question": "What is the best programming language to learn?", "expected_source": null},
+  {"question": "Can I bring my dog to the office?", "expected_source": null}
+]
